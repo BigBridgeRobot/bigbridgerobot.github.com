@@ -1,197 +1,222 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Li Zhenzhu, Ph.D</title>
+    <meta charset="utf-8" >
+
+<title>文章归档 | Li Zhenzhu, Ph.D</title>
+<meta name="description" content="Binzhou Medical University Hospital, Email: timeanddoctor@gmail.com.">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
 <link rel="shortcut icon" href="https://bigbridgerobot.github.io//favicon.ico">
 <link rel="stylesheet" href="https://bigbridgerobot.github.io//styles/main.css">
 
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://bigbridgerobot.github.io/">
-  <img class="avatar" src="https://bigbridgerobot.github.io//images/avatar.png" alt="" width="80px" height="80px">
-  </a>
-  <h1 class="site-title">
-    Li Zhenzhu, Ph.D
-  </h1>
-  <p class="site-description">
-    Binzhou Medical University Hospital, Email: timeanddoctor@gmail.com.
-  </p>
-  <div class="menu-container">
-    
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://bigbridgerobot.github.io/">
+        <img src="https://bigbridgerobot.github.io//images/avatar.png" class="site-logo">
+        <h1 class="site-title">Li Zhenzhu, Ph.D</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
       
-        <a href="/" class="menu">
-          Home
-        </a>
+        
+          <a href="/" class="site-nav">
+            Home
+          </a>
+        
       
-    
+        
+          <a href="https://bigbridgerobot.github.io//archives" class="site-nav">
+            Archives
+          </a>
+        
       
-        <a href="https://bigbridgerobot.github.io//archives" class="menu">
-          Archives
-        </a>
+        
+          <a href="https://bigbridgerobot.github.io//tags" class="site-nav">
+            Tags
+          </a>
+        
       
-    
+        
+          <a href="/post/paper" class="site-nav">
+            Paper
+          </a>
+        
       
-        <a href="https://bigbridgerobot.github.io//tags" class="menu">
-          Tags
-        </a>
+        
+          <a href="/post/3d printing" class="site-nav">
+            3D printing
+          </a>
+        
       
-    
+        
+          <a href="/post/bigrobot" class="site-nav">
+            BigBridgeRobot
+          </a>
+        
       
-        <a href="/post/paper" class="menu">
-          Paper
-        </a>
+        
+          <a href="https://bigbridgerobot.github.io//post/meeting/" class="site-nav">
+            Training
+          </a>
+        
       
-    
+        
+          <a href="/post/business" class="site-nav">
+            Business
+          </a>
+        
       
-        <a href="/post/3d printing" class="menu">
-          3D printing
-        </a>
-      
-    
-      
-        <a href="/post/bigrobot" class="menu">
-          BigBridgeRobot
-        </a>
-      
-    
-      
-        <a href="https://bigbridgerobot.github.io//post/meeting/" class="menu">
-          Training
-        </a>
-      
-    
-      
-        <a href="/post/business" class="menu">
-          Business
-        </a>
-      
-    
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="site-description">
+      Binzhou Medical University Hospital, Email: timeanddoctor@gmail.com.
+    </div>
+    <div class="site-footer">
+      Powered by Li Zhenzhu 
+    </div>
   </div>
 </div>
 
-    
-        
 
-<div class="archives-container">
-  
-    <h2 class="year">2019</h2>
-    
-      
-        <article class="post">
-          <a href="https://bigbridgerobot.github.io//post/EWST15JoN">
-            <h2 class="post-title">
-              常规和移动Endockscope使用空气或流体介质进行视网膜囊肿的临床比较
-              <small>2019-03-02</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://bigbridgerobot.github.io//post/rqcYMiAAK">
-            <h2 class="post-title">
-              Endockscope：使用移动技术创建全球服务点内窥镜
-              <small>2019-03-02</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://bigbridgerobot.github.io//post/_8SdXqHWV">
-            <h2 class="post-title">
-              智能手机辅助微创神经外科手术
-              <small>2019-03-02</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://bigbridgerobot.github.io//post/JtgEjIHjs">
-            <h2 class="post-title">
-              test for new
-              <small>2019-02-25</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://bigbridgerobot.github.io//post/L1PrwRRb_">
-            <h2 class="post-title">
-              Boolean Operation in Blender
-              <small>2019-02-24</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://bigbridgerobot.github.io//post/meeting">
-            <h2 class="post-title">
-              3D printing techology in Neurosrugery-Meeting
-              <small>2019-02-17</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://bigbridgerobot.github.io//post/PEr2rDOqP">
-            <h2 class="post-title">
-              Three-dimensional soft tissue analysis of the face following micro-implant-supported maxillary skeletal expansion
-              <small>2019-02-17</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-      
-        <article class="post">
-          <a href="https://bigbridgerobot.github.io//post/-UpX-ApeA">
-            <h2 class="post-title">
-              usful tools
-              <small>2019-02-16</small>
-            </h2>
-          </a>
-        </article>
-      
-    
-  
-</div>
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          
 
-    
-        <div class="pagination-container">
+          <h2 class="archives-title">文章归档</h2>
+          <div class="archives-container">
+            
+              <h2 class="year" data-aos="fade-in" data-aos-delay="500">2019</h2>
+              
+                
+                  <article class="post">
+                    <a href="https://bigbridgerobot.github.io//post/EWST15JoN">
+                      <h2 class="post-title">
+                        常规和移动Endockscope使用空气或流体介质进行视网膜囊肿的临床比较
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://bigbridgerobot.github.io//post/rqcYMiAAK">
+                      <h2 class="post-title">
+                        Endockscope：使用移动技术创建全球服务点内窥镜
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://bigbridgerobot.github.io//post/_8SdXqHWV">
+                      <h2 class="post-title">
+                        智能手机辅助微创神经外科手术
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://bigbridgerobot.github.io//post/JtgEjIHjs">
+                      <h2 class="post-title">
+                        test for new
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://bigbridgerobot.github.io//post/L1PrwRRb_">
+                      <h2 class="post-title">
+                        Boolean Operation in Blender
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://bigbridgerobot.github.io//post/meeting">
+                      <h2 class="post-title">
+                        3D printing techology in Neurosrugery-Meeting
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://bigbridgerobot.github.io//post/PEr2rDOqP">
+                      <h2 class="post-title">
+                        Three-dimensional soft tissue analysis of the face following micro-implant-supported maxillary skeletal expansion
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://bigbridgerobot.github.io//post/-UpX-ApeA">
+                      <h2 class="post-title">
+                        usful tools
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+            
+          </div>
+
+          <div class="pagination-container">
   
   
 </div>
 
-    
-        <div class="site-footer">
-  Powered by Li Zhenzhu 
-</div>
-
-<script>
-  hljs.initHighlightingOnLoad()
-</script>
-
+        </div>
       </div>
     </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
   </body>
 </html>
