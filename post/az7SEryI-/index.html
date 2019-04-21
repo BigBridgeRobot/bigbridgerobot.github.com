@@ -1,99 +1,114 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" >
+
 <title>软膜覆盖内窥镜手术治疗脑内血肿 | Li Zhenzhu, Ph.D</title>
+<meta name="description" content="Binzhou Medical University Hospital, Email: timeanddoctor@gmail.com.">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
 <link rel="shortcut icon" href="https://blog.bioprinting.site/favicon.ico">
 <link rel="stylesheet" href="https://blog.bioprinting.site/styles/main.css">
 
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://blog.bioprinting.site">
-  <img class="avatar" src="https://blog.bioprinting.site/images/avatar.png" alt="" width="80px" height="80px">
-  </a>
-  <h1 class="site-title">
-    Li Zhenzhu, Ph.D
-  </h1>
-  <p class="site-description">
-    Binzhou Medical University Hospital, Email: timeanddoctor@gmail.com.
-  </p>
-  <div class="menu-container">
-    
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://blog.bioprinting.site">
+        <img src="https://blog.bioprinting.site/images/avatar.png" class="site-logo">
+        <h1 class="site-title">Li Zhenzhu, Ph.D</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
       
-        <a href="/" class="menu">
-          Home
-        </a>
+        
+          <a href="/" class="site-nav">
+            Home
+          </a>
+        
       
-    
+        
+          <a href="https://blog.bioprinting.site/archives" class="site-nav">
+            Archives
+          </a>
+        
       
-        <a href="https://blog.bioprinting.site/archives" class="menu">
-          Archives
-        </a>
+        
+          <a href="https://blog.bioprinting.site/tags" class="site-nav">
+            Tags
+          </a>
+        
       
-    
+        
+          <a href="/post/paper" class="site-nav">
+            Paper
+          </a>
+        
       
-        <a href="https://blog.bioprinting.site/tags" class="menu">
-          Tags
-        </a>
+        
+          <a href="/post/3dprinting" class="site-nav">
+            3D printing
+          </a>
+        
       
-    
+        
+          <a href="/post/BigBridgeRobot" class="site-nav">
+            BigBridgeRobot
+          </a>
+        
       
-        <a href="/post/paper" class="menu">
-          Paper
-        </a>
+        
+          <a href="https://blog.bioprinting.site/post/meeting/" class="site-nav">
+            Training
+          </a>
+        
       
-    
+        
+          <a href="/post/business" class="site-nav">
+            Business
+          </a>
+        
       
-        <a href="/post/3dprinting" class="menu">
-          3D printing
-        </a>
-      
-    
-      
-        <a href="/post/BigBridgeRobot" class="menu">
-          BigBridgeRobot
-        </a>
-      
-    
-      
-        <a href="https://blog.bioprinting.site/post/meeting/" class="menu">
-          Training
-        </a>
-      
-    
-      
-        <a href="/post/business" class="menu">
-          Business
-        </a>
-      
-    
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="site-description">
+      Binzhou Medical University Hospital, Email: timeanddoctor@gmail.com.
+    </div>
+    <div class="site-footer">
+      Powered by Li Zhenzhu 
+    </div>
   </div>
 </div>
 
-      
-        <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              软膜覆盖内窥镜手术治疗脑内血肿
-            </h2>
-            <div class="post-info">
-              <time class="post-time">
-                · 2019-04-03 ·
-              </time>
-              
-                <a href="https://blog.bioprinting.site/tag/IEqKHBx5V" class="post-tags">
-                  # Blog
-                </a>
-              
-            </div>
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">软膜覆盖内窥镜手术治疗脑内血肿</h2>
+            <div class="post-date">2019-04-03</div>
+            
             <div class="post-content">
               <p>背景
 尽管外科手术撤离脑内血肿（ICH）的功能效果仍存在争议，但它对于管理ICHs具有重要作用。内窥镜手术越来越多地用于撤离ICH; 然而，窄的刚性护套可能是限制性的。我们报告了软塑料膜护套用于内窥镜排空ICH的有效性。</p>
@@ -255,57 +270,82 @@
 <p>我们的膜护套提供灵活的走廊，用于容纳和处理器械，包括双极钳。它克服了确定最有用的内窥镜辅助手术器械的局限性，并且易于通过<a href="https://www.sciencedirect.com/topics/medicine-and-dentistry/microsurgery" title="了解有关显微外科的更多信息">显微外科</a>技术用于撤离ICH 。</p>
 
             </div>
-          </article>
+            
+              <div class="tag-container">
+                
+                  <a href="https://blog.bioprinting.site/tag/IEqKHBx5V" class="tag">
+                    Blog
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://blog.bioprinting.site/post/jC9gfdXHm">
+                  <h3 class="post-title">
+                    使用简单注射器进入深部病变的微创脑端口方法
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
+          </div>
+
         </div>
-    
-        
-          <div class="next-post">
-            <div class="next">下一篇</div>
-            <a href="https://blog.bioprinting.site/post/jC9gfdXHm">
-              <h3 class="post-title">
-                使用简单注射器进入深部病变的微创脑端口方法
-              </h3>
-            </a>
-          </div>  
-        
-
-        
-          
-            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-
-<div id="gitalk-container"></div>
-
-<script>
-
-  var gitalk = new Gitalk({
-    clientID: '5a1731e91b2babbae676',
-    clientSecret: '4aa066bef462280d8e23e4fdd569ffa0285f54da',
-    repo: 'talk',
-    owner: 'BigBridgeRobot',
-    admin: ['BigBridgeRobot'],
-    id: location.pathname,      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
-
-  gitalk.render('gitalk-container')
-
-</script>
-
-          
-
-          
-        
-    
-        <div class="site-footer">
-  Powered by Li Zhenzhu 
-</div>
-
-<script>
-  hljs.initHighlightingOnLoad()
-</script>
-
       </div>
     </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+  
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '5a1731e91b2babbae676',
+        clientSecret: '4aa066bef462280d8e23e4fdd569ffa0285f54da',
+        repo: 'talk',
+        owner: 'BigBridgeRobot',
+        admin: ['BigBridgeRobot'],
+        id: location.pathname,      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
   </body>
 </html>
