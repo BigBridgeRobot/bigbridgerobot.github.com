@@ -108,22 +108,24 @@ xx = 15
 while (xx &lt; 16):
 yy = 15
     while (yy &lt; 16):    
-        #  set the &#39;cutter&#39; in location
-        bpy.data.objects[&#39;Cylinder.002&#39;].location=(xx,yy,0)
+        #  set the 'cutter' in location
+        bpy.data.objects['Cylinder.002'].location=(xx,yy,0)
 
         #  make sure that the base object is selected 
-        bpy.data.objects[&#39;Cylinder.005&#39;].select = False
-        bpy.data.objects[&#39;Cylinder.005&#39;].select = True
+        bpy.data.objects['Cylinder.005'].select = False
+        bpy.data.objects['Cylinder.005'].select = True
 
         #  set the modifier
-        bpy.ops.object.modifier_add(type=&#39;BOOLEAN&#39;)
-        bpy.context.object.modifiers[&#39;Boolean&#39;].operation = &#39;DIFFERENCE&#39;
-        bpy.context.object.modifiers[&#39;Boolean&#39;].object = bpy.data.objects[&#39;Cylinder.002&#39;]
+        bpy.ops.object.modifier_add(type='BOOLEAN')
+        bpy.context.object.modifiers['Boolean'].operation = 'DIFFERENCE'
+        bpy.context.object.modifiers['Boolean'].object = bpy.data.objects['Cylinder.002']
 
         #  execute
-        bpy.ops.object.modifier_apply(apply_as=&#39;DATA&#39;, modifier=&#39;Boolean&#39;)
+        bpy.ops.object.modifier_apply(apply_as='DATA', modifier='Boolean')
     yy += 3
-xx += 3</code></pre>
+xx += 3
+</code></pre>
+
             </div>
           </article>
         </div>
